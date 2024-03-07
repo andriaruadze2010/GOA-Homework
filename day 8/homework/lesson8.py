@@ -1,0 +1,11 @@
+print(10 > 5 or 5< 10)
+print(3 > 2  or 2 < 3 )
+print(9 > 1  or 1 < 9)
+print(5 > 1  or 1 < 5)
+print(2 > 1  or 1 > 2)
+
+print(2 < 3  and 3 < 2)
+print(1 < 4  and 5 < 4)
+print(2 < 4  and 2 < 5)
+print(9 < 5  and 10 < 9)
+print(7 < 4  and 6 < 8)
