@@ -1,3 +1,126 @@
+name = "eleniko"
+even_indexes_string = ''
+        #  0 1 2 3 4 5 6
+for i in range(0, len(name)):
+    if i % 2 == 0:
+        even_indexes_string = even_indexes_string + name[i]
+
+print(even_indexes_string)
+
+
+
+
+
+name = "ramazi"
+even_indexes_string = ''
+        #  0 1 2 3 4 5 
+for i in range(0, len(name)):
+    if i % 2 == 0:
+        even_indexes_string = even_indexes_string + name[i]
+
+print(even_indexes_string)
+
+
+
+
+
+
+
+
+
+
+
+
+name = "gabrieli"
+even_indexes_string = ''
+        #  0 1 2 3 4 5 6 7
+for i in range(0, len(name)):
+    if i % 2 == 0:
+        even_indexes_string = even_indexes_string + name[i]
+
+print(even_indexes_string)
+
+
+
+
+
+
+
+
+
+
+
+
+name = "andria"
+even_indexes_string = ''
+        #  0 1 2 3 4 5 
+for i in range(0, len(name)):
+    if i % 2 == 0:
+        even_indexes_string = even_indexes_string + name[i]
+
+print(even_indexes_string)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+name = "eleniko"
+even_indexes_string = ''
+        #  0 1 2 3 4 5 6
+for i in range(0, len(name)):
+    if i % 2 == 0:
+        even_indexes_string = even_indexes_string + name[i]
+
+print(even_indexes_string)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 list = ["andria", "gabrieli", "ilia", "luka", "nika"]
 print(list[0])
 print(list[1])
