@@ -21,9 +21,5 @@ for i in range(len(numbers)):
 
 
 
-word = input("შეიყვანეთ სიტყვა: ")
 
 
-word = None
-
-print("შეტანილი სიტყვა:", word)
