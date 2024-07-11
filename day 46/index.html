@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!-- Replace favicon.ico with your actual favicon file -->
+    <style>
+        /* CSS for styled footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>andria</h1>
+    <h2>gabrieli</h2>
+    <h3>elene</h3>
+    <h4>ruadze</h4>
+    <h5>nika</h5>
+    <h6>ilia</h6>
+
+    <p>This is a paragraph with <strong>bold</strong> and <em>italic</em> text.</p>
+
+    <h2>Unordered List</h2>
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2
+            <ul>
+                <li>Nested item 1</li>
+                <li>Nested item 2</li>
+            </ul>
+        </li>
+        <li>List item 3</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol>
+        <li>List item 1</li>
+        <li>List item 2
+            <ol>
+                <li>Nested item 1</li>
+                <li>Nested item 2</li>
+            </ol>
+        </li>
+        <li>List item 3</li>
+    </ol>
+
+    <h2>Image</h2>
+    <img src="image.png" alt="gtr" width="300" height="200">
+
+    <h2>Hyperlinks</h2>
+    <p><a href="https://www.facebook.com/nika11keshelava/" title="Visit goa academy">goa academyy</a></p>
+    <p><a href="#section2">Jump to Section 2</a></p>
+
+    <h2>Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ruadze 1</th>
+                <th>ruadze 2</th>
+                <th>ruadze 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 3</td>
+            </tr>
+            <tr>
+                <td>Data 4</td>
+                <td>Data 5</td>
+                <td>Data 6</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Form</h2>
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="6" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Multi-line Text Area</h2>
+    <textarea rows="4" cols="50"></textarea>
+
+    <h2>Radio Buttons</h2>
+    <form>
+        <input type="radio" id="option1" name="option" value="option1" checked>
+        <label for="option1">Option 1</label><br>
+        <input type="radio" id="option2" name="option" value="option2">
+        <label for="option2">Option 2</label><br>
+    </form>
+
+    <h2>Checkboxes</h2>
+    <form>
+        <input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox1">
+        <label for="checkbox1">Checkbox 1</label><br>
+        <input type="checkbox" id="checkbox2" name="checkbox2" value="checkbox2">
+        <label for="checkbox2">Checkbox 2</label><br>
+    </form>
+
+    <h2>Dropdown Menu</h2>
+    <form>
+        <select>
+            <option value="" disabled selected>Select an option</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select>
+    </form>
+
+    <h2>YouTube Video</h2>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <h2>Horizontal Line</h2>
+    <hr style="width: 50%; border-color: #333;">
+
+    <h2>Div</h2>
+    <div>
+        <div>Nested Div 1</div>
+        <div>Nested Div 2</div>
+        <div>Nested Div 3</div>
+    </div>
+
+    <h2>Styled Footer</h2>
+    <footer>
+        <p>Follow us:</p>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+    </footer>
+
+    <h2>Horizontal Navigation Bar with Dropdown Menus</h2>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <h2>Section with Articles and Aside</h2>
+    <section>
+        <article>
+            <h3>Article 1</h3>
+            <p>Content of Article 1.</p>
+        </article>
+        <article>
+            <h3>Article 2</h3>
+            <p>Content of Article 2.</p>
+        </article>
+        <aside>
+            <h3>Related Links</h3>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </aside>
+    </section>
+
+    <h2>Header with Logo and Search Form</h2>
+    <header>
+        <div>
+            <img src="logo.png" alt="Logo" width="100" height="50">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <form>
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <h2>Background Image</h2>
+    <div style="background-image: url('background.jpg'); background-size: cover; background-position: center; width: 100%; height: 300px;">
+        <!-- Replace background.jpg with your actual background image file -->
+    </div>
+
+    <h2>Form with Validation Attributes</h2>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Table with colspan and rowspan</h2>
+    <table border="1">
+        <tr>
+            <th colspan="2">Header 1 and 2</th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+        </tr>
+        <tr>
+            <td>Cell 4</td>
+            <td
