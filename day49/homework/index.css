@@ -1,0 +1,51 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: rotate(45deg);
+  }
+  .button {
+    padding: 10px 20px;
+    background-color: green;
+    transition: transform 0.3s ease;
+  }
+  
+  .button:hover {
+    transform: scale(1.2);
+  }
+    
+  .circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: translateX(100px);
+  }
+
+  
+  .mixed-transforms {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transform: rotate(30deg) scale(1.5);
+  }
+
+  .color-transition {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    transition: background-color 0.5s ease;
+  }
+  
+  .color-transition:hover {
+    background-color: purple;
+  }
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+  }
+  
+  .heading:hover {
+    transform: rotate(10deg);
+  }
+    

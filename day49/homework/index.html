@@ -1,0 +1,89 @@
+<link rel="stylesheet" href="index.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Transform and Transition Examples</title>
+<style>
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: rotate(45deg);
+  }
+
+  .button {
+    padding: 10px 20px;
+    background-color: green;
+    transition: transform 0.3s ease;
+  }
+
+  .button:hover {
+    transform: scale(1.2);
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: translateX(100px);
+  }
+
+  .mixed-transforms {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transform: rotate(30deg) scale(1.5);
+  }
+
+  .color-transition {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    transition: background-color 0.5s ease;
+  }
+
+  .color-transition:hover {
+    background-color: purple;
+  }
+
+  .size-transition {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    transition: width 1s ease, height 1s ease;
+  }
+
+  .size-transition:hover {
+    width: 200px;
+    height: 200px;
+  }
+
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+  }
+
+  .heading:hover {
+    transform: rotate(10deg);
+  }
+</style>
+</head>
+<body>
+  <div class="square"></div>
+  
+  <button class="button">Scale on Hover</button>
+  
+  <div class="circle"></div>
+  
+  <div class="mixed-transforms"></div>
+  
+  <div class="color-transition"></div>
+  
+  <div class="size-transition"></div>
+  
+  <h1 class="heading">Hover over me!</h1>
+</body>
+</html>
