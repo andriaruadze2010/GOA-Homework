@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფოტოების შეცვლა</title>
+    <style>
+        #photo-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: none;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="photo-container">
+        <img id="photo1" src="image.png" alt="First Photo">
+        <img id="photo2" src="r34.png" alt="Second Photo">
+    </div>
+    <button id="showPhoto1">undo  
+    </button>
+    <button id="showPhoto2">next</button>
+    <p id="event-description">დააჭირეთ ღილაკს, რათა გააქტიუროთ ფოტო</p>
+
+    <script>
+        // HTML ელემენტების არჩევა
+        const photo1 = document.getElementById('photo1');
+        const photo2 = document.getElementById('photo2');
+        const showPhoto1Button = document.getElementById('showPhoto1');
+        const showPhoto2Button = document.getElementById('showPhoto2');
+        const eventDescription = document.getElementById('event-description');
+
+        // მოვლენების დამუშავება
+        showPhoto1Button.addEventListener('click', function() {
+            photo1.style.display = 'block';
+            photo2.style.display = 'none';
+            eventDescription.textContent = 'მოხდა პირველი ფოტოს გაწვდვა';
+        });
+
+        showPhoto2Button.addEventListener('click', function() {
+            photo1.style.display = 'none';
+            photo2.style.display = 'block';
+            eventDescription.textContent = 'მოხდა მეორე ფოტოს გაწვდვა';
+        });
+    </script>
+</body>
+</html>
